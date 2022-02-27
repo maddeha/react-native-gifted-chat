@@ -110,6 +110,8 @@ export default class Message<
       next.pending !== current.pending ||
       next.createdAt !== current.createdAt ||
       next.text !== current.text ||
+      next.typeOfMessage !== current.typeOfMessage ||
+      next.value !== current.value ||
       next.image !== current.image ||
       next.video !== current.video ||
       next.audio !== current.audio ||

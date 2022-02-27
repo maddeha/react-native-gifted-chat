@@ -53,6 +53,8 @@ export interface IMessage {
   text: string
   createdAt: Date | number
   user: User
+  typeOfMessage: string
+  value: object
   image?: string
   video?: string
   audio?: string
